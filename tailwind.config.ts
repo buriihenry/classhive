@@ -13,6 +13,16 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors:{
+        buriiSky:"#87ceeb",
+        buriiSkyLight:"#cceeff",
+        buriiPurple:"#28a745",
+        buriiPurpleLight:"#ccffcc",
+        buriiYellow:"#ffcc00",
+        buriiYellowLight:"#fff2b3",
+
+      }
+
     },
   },
   plugins: [],
