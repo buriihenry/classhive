@@ -1,6 +1,6 @@
 // TEMPORARY DATA
 
-export let role = "admin";
+export let role = "admin"; // Change this to "admin", "teacher", or "parent" to test different views
 
 export const teachersData = [
   {
