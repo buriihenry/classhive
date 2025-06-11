@@ -37,11 +37,10 @@ const SubjectListPage = () => {
   const renderRow = (item: Subject) => (
     <tr key={item.id} className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-buriiPurpleLight">
       <td className="flex items-center gap-4 p-4">
-        <div className="flex  flex-col">
-          <h3 className="font-semibold">{item.name}</h3>
-          <p className="text-xs text-gray-500">{item.teachers.join(",")}</p>
-        </div>
+        {item.name}
+        
       </td>
+      <td className="hidden md:table-cell">{item.teachers.join(",")}</td>
       <td>
         <div className="flex items-center gap-2">
           <Link href={`/list/teachers/${item.id}`}>
