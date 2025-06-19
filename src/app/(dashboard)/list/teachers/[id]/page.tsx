@@ -3,6 +3,7 @@
 
 import Announcements from '@/components/Announcements';
 import BigCalendar from '@/components/BigCalendar';
+import Performance from '@/components/Performance';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -117,6 +118,7 @@ const SingleTeacherPage = () => {
             <Link className='p-3 rounded-md bg-buriiYellow' href="/">Teacher&apos;s Assigments</Link>
           </div>
         </div>
+        <Performance/>
         <Announcements/>
         </div>
 
